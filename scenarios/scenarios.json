@@ -1,1 +1,7 @@
-
+[
+{"title":"Wrong IP Configuration","description":"A computer cannot communicate after a manual IP change.","options":["Incorrect IP address or subnet mask","Wrong file extension","Low disk space","Incorrect keyboard layout"],"answer":1,"explanation":"An invalid IP address or subnet mask can prevent correct local network communication."},
+{"title":"VLAN Mismatch","description":"Two devices on different switch ports cannot communicate although their IP settings appear correct.","options":["Ports are assigned to incompatible VLANs","Damaged monitor cable","Full browser cache","Too many files"],"answer":1,"explanation":"Devices in different VLANs require appropriate Layer 3 routing to communicate."},
+{"title":"DNS Failure","description":"A user can access a website by IP address but not by domain name.","options":["DNS resolution problem","RAM failure","Wrong screen resolution","Incorrect file permissions"],"answer":1,"explanation":"Successful IP access with failed domain-name access commonly indicates a DNS issue."},
+{"title":"Routing Failure","description":"A workstation reaches its gateway but cannot reach another network.","options":["Missing or incorrect routing configuration","Wrong text editor","Low battery","Keyboard language"],"answer":1,"explanation":"A routing problem can prevent traffic from reaching a remote network."},
+{"title":"Subnet Configuration","description":"Two hosts cannot communicate after one receives a new subnet mask.","options":["Incorrect subnet mask","Wrong wallpaper","File name too long","Disconnected keyboard"],"answer":1,"explanation":"An incorrect subnet mask can cause hosts to calculate network membership incorrectly."}
+]
